@@ -1,0 +1,20 @@
+@import "tailwindcss";
+.app-container {
+  display: flex;
+}
+.sidebar {
+  width: 200px;
+  background-color: #f0f4f8;
+  padding: 16px;
+}
+.main-content {
+  flex: 1;
+  padding: 16px;
+}
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 16px;
+  margin-bottom: 16px;
+}
